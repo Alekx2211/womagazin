@@ -10,8 +10,126 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+  width: 1600px;
 }
 $bg:#F1EADC;
 .wrap {
   width: 1170px;
 }
+.header {
+  height: 826px;
+  width: 1370px;
+  margin-left: 230px;
+  .cover {
+    position: relative;
+    &__left {
+      width: 723px;
+      height: 833px;
+      background-color: $bg;
+      float: right;
+      position: relative;
+      .main {
+        padding-left: 50px;
+        padding-top: 120px;
+      }
+      .foto1 {
+        position: absolute;
+        left: 370px;
+        top: 243px;
+      }
+      .foto2 {
+        position: absolute;
+        bottom: 0;
+        left: -77px;
+      }
+    }
+  }
+  .menu {
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    z-index: 1;
+    align-items: center;
+    height: 28px;
+    top: 54px;
+    .nav {
+      display: flex;
+      padding: 0;
+      margin-left: 65px;
+      &__item {
+        list-style-type: none;
+        padding-right: 45px;
+      }
+      &__link {
+        color: #000000;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+      }
+    }
+    .telefon {
+      a {
+        text-decoration: none;
+        letter-spacing: 0.02em;
+        color: #000;
+      }
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      h1 {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        font-weight: 500;
+        color: #000000;
+        padding-left: 15px;
+      }
+    }
+  }
+  .shop {
+    position: absolute;
+    top: 265px;
+    left: 230px;
+    width: 563px;
+    .info {
+      height: 385px;
+      .text-top{
+        font-size:55px ;
+        font-weight: 500;
+        color: #000000;
+        letter-spacing: 0.02em;
+      }
+      .text-center{
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        text-align: right;
+        width: 380px;
+        line-height: 28px;
+        padding-top: 42px;
+        margin-left: 3px;
+      }
+      .button {
+        padding-top: 51px;
+        margin-left: 71px;
+        display: flex;
+        a {
+          background-color: #6E9C9F;
+          color: #ffffff;
+          padding: 25px 50px;
+          text-decoration: none;
+          letter-spacing: 0.05em;
+        }
+        .arrow {
+          width: 70px;
+          height: 70px;
+          text-align: center;
+          padding-top: 21px;
+          background: hsl(184deg 92% 54% / 15%);
+        }
+      }
+    }
+  }
+}
+
