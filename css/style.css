@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
@@ -73,6 +74,9 @@ body {
   font-size: 15px;
   letter-spacing: 0.02em;
 }
+.header .menu .telefon {
+  display: flex;
+}
 .header .menu .telefon a {
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -94,6 +98,7 @@ body {
   top: 265px;
   left: 230px;
   width: 563px;
+  height: 561px;
 }
 .header .shop .info {
   height: 385px;
@@ -126,6 +131,9 @@ body {
   text-decoration: none;
   letter-spacing: 0.05em;
 }
+.header .shop .info .button a:hover {
+  background: #509498;
+}
 .header .shop .info .button .arrow {
   width: 70px;
   height: 70px;
@@ -133,18 +141,38 @@ body {
   padding-top: 21px;
   background: rgba(30, 231, 246, 0.15);
 }
+.header .shop .pag1 {
+  bottom: 50px;
+  left: 41px;
+}
+.header .shop .pag1 .swiper-pagination-bullet {
+  width: 30px;
+  height: 4px;
+  border-radius: 0;
+  background: #857e7e;
+}
+.header .shop .pag1 .swiper-pagination-bullet-active {
+  background: #1B1B1B;
+}
 
 .section-new {
-  margin-left: 230px;
+  margin-left: 227px;
+  margin-top: 133px;
+}
+.section-new .new {
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 .section-new .new h1 {
   font-weight: 500;
   font-size: 40px;
   padding-bottom: 92px;
+  text-align: left;
 }
 .section-new .new .kat {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 90px;
 }
 .section-new .new .kat .foto2, .section-new .new .kat .foto3 {
   width: 350px;
@@ -160,7 +188,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: #998E78;
-  padding-top: 7px;
+  padding-top: 11px;
 }
 .section-new .new .kat .foto2 .cena span, .section-new .new .kat .foto3 .cena span {
   text-decoration: line-through;
@@ -174,6 +202,11 @@ body {
   background-image: url("../img/usa.png");
   height: 478px;
 }
+.section-new .new .kat .foto1 .img1 .go {
+  border: none;
+  display: none;
+  color: #FFFFFF;
+}
 .section-new .new .kat .foto1 h2 {
   font-size: 20px;
   font-weight: 500;
@@ -183,21 +216,251 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: #998E78;
-  padding-top: 7px;
+  padding-top: 11px;
 }
 .section-new .new .kat .foto1 .cena span {
   text-decoration: line-through;
 }
-.section-new .new .kat .img2 {
+.section-new .new .kat .foto1 .img1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 350px;
   height: 478px;
-}
-.section-new .new .kat .img2::after {
   background: rgba(110, 156, 159, 0.77);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.section-new .new .kat .foto1 .img1:hover::before {
+  opacity: 1;
+}
+.section-new .new .kat .foto1 .img1:hover a {
+  display: block;
   z-index: 1;
 }
-.section-new .new .kat .img3 {
+.section-new .new .kat .foto2 .img2::before {
+  content: ">";
+  display: block;
+  position: absolute;
+  width: 350px;
+  height: 478px;
+  background: rgba(110, 156, 159, 0.77);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.section-new .new .kat .foto2 .img2:hover::before {
+  opacity: 1;
+}
+.section-new .new .kat .foto3 .img3 {
   background-image: url("../img/shot.png");
   height: 478px;
+}
+.section-new .new .kat .foto3 .img3::before {
+  content: "→";
+  display: block;
+  position: absolute;
+  width: 350px;
+  height: 478px;
+  background: rgba(110, 156, 159, 0.77);
+  opacity: 0;
+  transition: opacity 0.5s;
+  color: white;
+}
+.section-new .new .kat .foto3 .img3:hover::before {
+  opacity: 1;
+}
+.section-new .new a {
+  border: 1px solid #6e9c9f;
+  padding: 22px 50px;
+  text-decoration: none;
+  color: #6e9c9f;
+}
+.section-new .new a:hover {
+  color: #FFFFFF;
+  background: #6e9c9f;
+}
+
+.section-important {
+  margin-left: 227px;
+  margin-top: 152px;
+}
+.section-important .important .us {
+  display: flex;
+  margin-top: 92px;
+}
+.section-important .important .us .quality {
+  flex-basis: 35%;
+}
+.section-important .important .us .quality .icon {
+  background-image: url("../img/kach.png");
+  width: 60px;
+  height: 61px;
+  margin-bottom: 37px;
+}
+.section-important .important .us .quality h2 {
+  padding-bottom: 28px;
+  font-size: 25px;
+}
+.section-important .important .us .quality p {
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.section-important .important .us .speed {
+  flex-basis: 35%;
+  margin-left: 15px;
+}
+.section-important .important .us .speed .icon {
+  background-image: url("../img/speed.png");
+  width: 60px;
+  height: 63px;
+  margin-bottom: 37px;
+}
+.section-important .important .us .speed h2 {
+  padding-bottom: 25px;
+  font-size: 25px;
+}
+.section-important .important .us .speed p {
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.section-important .important .us .Respons {
+  flex-basis: 35%;
+}
+.section-important .important .us .Respons .icon {
+  background-image: url("../img/ruk.png");
+  width: 60px;
+  height: 63px;
+  margin-bottom: 37px;
+  margin-left: 17px;
+  margin-top: -3px;
+}
+.section-important .important .us .Respons h2 {
+  padding-bottom: 28px;
+  font-size: 25px;
+  padding-left: 16px;
+}
+.section-important .important .us .Respons p {
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+.section-important .important h1 {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.section-team {
+  margin-left: 230px;
+  margin-top: 147px;
+  margin-bottom: 130px;
+}
+.section-team h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 90px;
+}
+.section-team .dreams {
+  display: flex;
+  align-items: center;
+}
+.section-team .dreams .team {
+  position: relative;
+  width: 729px;
+}
+.section-team .dreams .team .teams {
+  width: 729px;
+}
+.section-team .dreams .team .teams .teams1, .section-team .dreams .team .teams .teams2, .section-team .dreams .team .teams .teams3 {
+  background-image: url("../img/team.png");
+  height: 488px;
+}
+.section-team .dreams .team .teams .pag {
+  bottom: 55px;
+}
+.section-team .dreams .team .teams .pag .swiper-pagination-bullet {
+  width: 30px;
+  height: 4px;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.67);
+}
+.section-team .dreams .team .teams .pag .swiper-pagination-bullet-active {
+  background: white;
+}
+.section-team .dreams .team .prev {
+  width: 28px;
+  height: 15px;
+  background-image: url("../img/prev.png");
+  left: -63px;
+  top: 248px;
+}
+.section-team .dreams .team .prev::after {
+  content: "f104";
+  color: #F4B860;
+}
+.section-team .dreams .team .prev .fa-solid {
+  color: #FFFFFF;
+}
+.section-team .dreams .team .next {
+  width: 28px;
+  height: 15px;
+  background-image: url("../img/next.png");
+  right: -58px;
+  top: 248px;
+}
+.section-team .dreams .team .next::after {
+  content: "f104";
+  color: #FFFFFF;
+}
+.section-team .dreams .team .next .fa-solid {
+  color: #FFFFFF;
+}
+.section-team .dreams .you {
+  width: 255px;
+  margin-left: 123px;
+}
+.section-team .dreams .you h2 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-bottom: 28px;
+}
+.section-team .dreams .you p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.section-team .dreams .you a {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #6E9C9F;
+  text-decoration: none;
+}
+.section-team .dreams .you a:hover {
+  border-bottom: solid 1px #CEDEDF;
+  transition: 0.5s;
+}
+
+.footer {
+  background-color: #F1EADC;
+  height: 363px;
 }
 
 /*# sourceMappingURL=style.css.map */
