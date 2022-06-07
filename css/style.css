@@ -16,7 +16,7 @@ body {
 }
 
 .wrap {
-  width: 1170px;
+  width: 1110px;
 }
 
 .header {
@@ -132,6 +132,72 @@ body {
   text-align: center;
   padding-top: 21px;
   background: rgba(30, 231, 246, 0.15);
+}
+
+.section-new {
+  margin-left: 230px;
+}
+.section-new .new h1 {
+  font-weight: 500;
+  font-size: 40px;
+  padding-bottom: 92px;
+}
+.section-new .new .kat {
+  display: flex;
+  justify-content: space-between;
+}
+.section-new .new .kat .foto2, .section-new .new .kat .foto3 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-new .new .kat .foto2 h2, .section-new .new .kat .foto3 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-new .new .kat .foto2 .cena, .section-new .new .kat .foto3 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 7px;
+}
+.section-new .new .kat .foto2 .cena span, .section-new .new .kat .foto3 .cena span {
+  text-decoration: line-through;
+}
+.section-new .new .kat .foto1 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-new .new .kat .foto1 .img1 {
+  background-image: url("../img/usa.png");
+  height: 478px;
+}
+.section-new .new .kat .foto1 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-new .new .kat .foto1 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 7px;
+}
+.section-new .new .kat .foto1 .cena span {
+  text-decoration: line-through;
+}
+.section-new .new .kat .img2 {
+  height: 478px;
+}
+.section-new .new .kat .img2::after {
+  background: rgba(110, 156, 159, 0.77);
+  z-index: 1;
+}
+.section-new .new .kat .img3 {
+  background-image: url("../img/shot.png");
+  height: 478px;
 }
 
 /*# sourceMappingURL=style.css.map */

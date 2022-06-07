@@ -14,7 +14,7 @@ body {
 }
 $bg:#F1EADC;
 .wrap {
-  width: 1170px;
+  width: 1110px;
 }
 .header {
   height: 826px;
@@ -128,6 +128,77 @@ $bg:#F1EADC;
           padding-top: 21px;
           background: hsl(184deg 92% 54% / 15%);
         }
+      }
+    }
+  }
+}
+.section-new {
+  margin-left: 230px;
+  .new {
+    h1 {
+      font-weight: 500;
+      font-size: 40px;
+      padding-bottom: 92px;
+    }
+    .kat {
+      display: flex;
+      justify-content: space-between;
+      .foto2,.foto3 {
+        width: 350px;
+        height: 558px;
+        text-align: center;
+        h2 {
+          font-size: 20px;
+          font-weight: 500;
+          padding-top: 24px;
+        }
+        .cena {
+          font-size: 15px;
+          font-weight: 500;
+          color: #998E78;
+          padding-top: 7px;
+          span {
+            text-decoration: line-through;
+          }
+        }
+      }
+      .foto1 {
+        width: 350px;
+        height: 558px;
+        text-align: center;
+        .img1 {
+          background-image: url("../img/usa.png");
+          height: 478px;
+        }
+        h2 {
+          font-size: 20px;
+          font-weight: 500;
+          padding-top: 24px;
+        }
+        .cena {
+          font-size: 15px;
+          font-weight: 500;
+          color: #998E78;
+          padding-top: 7px;
+          span {
+            text-decoration: line-through;
+          }
+        }
+      }
+      .img2 {
+        height: 478px;
+        &::after {
+          background: rgba(110, 156, 159, 0.77);
+          z-index: 1;
+
+
+
+        }
+      }
+      .img3 {
+        background-image: url("../img/shot.png");
+        height: 478px;
+
       }
     }
   }
