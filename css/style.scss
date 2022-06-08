@@ -16,47 +16,26 @@ $bg:#F1EADC;
 .wrap {
   width: 1110px;
 }
-.header {
-  height: 826px;
-  width: 1370px;
-  margin-left: 230px;
-  .cover {
-    position: relative;
-    &__left {
-      width: 723px;
-      height: 833px;
-      background-color: $bg;
-      float: right;
-      position: relative;
-      .main {
-        padding-left: 50px;
-        padding-top: 120px;
-      }
-      .foto1 {
-        position: absolute;
-        left: 370px;
-        top: 243px;
-      }
-      .foto2 {
-        position: absolute;
-        bottom: 0;
-        left: -77px;
-      }
-    }
-  }
+.menu-top {
+  position: fixed;
+  z-index: 1;
+  background: transparent;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  height: 127px;
   .menu {
-    position: absolute;
     display: flex;
-    width: 1100px;
+    width: 1340px;
     justify-content: space-between;
     z-index: 1;
     align-items: center;
     height: 28px;
-    top: 54px;
+    padding-left: 230px;
     .nav {
       display: flex;
       padding: 0;
-      margin-left: 60px;
+      margin-left: 50px;
       &__item {
         list-style-type: none;
         padding-right: 45px;
@@ -88,6 +67,37 @@ $bg:#F1EADC;
       }
     }
   }
+}
+
+.header {
+  height: 826px;
+  width: 1370px;
+  margin-left: 230px;
+  .cover {
+    position: relative;
+    &__left {
+      width: 723px;
+      height: 833px;
+      background-color: $bg;
+      float: right;
+      position: relative;
+      .main {
+        padding-left: 50px;
+        padding-top: 120px;
+      }
+      .foto1 {
+        position: absolute;
+        left: 370px;
+        top: 243px;
+      }
+      .foto2 {
+        position: absolute;
+        bottom: 0;
+        left: -77px;
+      }
+    }
+  }
+
   .shop {
     position: absolute;
     top: 265px;
@@ -614,6 +624,73 @@ $bg:#F1EADC;
       .visa{
         text-align: right;
         margin-left: 20px;
+      }
+    }
+  }
+}
+.hed {
+  position: relative;
+  height: 95px;
+}
+.section-magazin {
+  margin-top: 160px;
+  .magazin {
+    margin-left: 230px;
+    h1 {
+      font-size: 55px;
+      font-weight: 500;
+      line-height: 61px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      padding-bottom: 10px;
+    }
+    .mag {
+      padding: 0;
+      &__item {
+        list-style-type: none;
+        display: inline-block;
+      }
+      &__link {
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #000000;
+      }
+      span {
+        padding-left: 11px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+.section-content {
+  .content {
+    margin-left: 230px;
+    .cont {
+      padding: 0;
+      &__item {
+        list-style-type: none;
+        display: inline-block;
+        text-align: center;
+        padding-top: 19px;
+        padding-right: 10px;
+        &:hover {
+          border: none;
+
+        }
+      }
+      &__link {
+        text-decoration: none;
+        color: #000000;
+        padding: 19px 65px;
+        border: 1px solid;
+      }
+      li:hover a {
+        color: #FFFFFF;
+        background-color: #000000;
       }
     }
   }

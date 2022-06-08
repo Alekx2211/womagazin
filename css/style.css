@@ -19,6 +19,59 @@ body {
   width: 1110px;
 }
 
+.menu-top {
+  position: fixed;
+  z-index: 1;
+  background: transparent;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  height: 127px;
+}
+.menu-top .menu {
+  display: flex;
+  width: 1340px;
+  justify-content: space-between;
+  z-index: 1;
+  align-items: center;
+  height: 28px;
+  padding-left: 230px;
+}
+.menu-top .menu .nav {
+  display: flex;
+  padding: 0;
+  margin-left: 50px;
+}
+.menu-top .menu .nav__item {
+  list-style-type: none;
+  padding-right: 45px;
+}
+.menu-top .menu .nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+.menu-top .menu .telefon {
+  display: flex;
+}
+.menu-top .menu .telefon a {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+.menu-top .menu .logo {
+  display: flex;
+  align-items: center;
+}
+.menu-top .menu .logo h1 {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #000000;
+  padding-left: 15px;
+}
+
 .header {
   height: 826px;
   width: 1370px;
@@ -47,50 +100,6 @@ body {
   position: absolute;
   bottom: 0;
   left: -77px;
-}
-.header .menu {
-  position: absolute;
-  display: flex;
-  width: 1100px;
-  justify-content: space-between;
-  z-index: 1;
-  align-items: center;
-  height: 28px;
-  top: 54px;
-}
-.header .menu .nav {
-  display: flex;
-  padding: 0;
-  margin-left: 60px;
-}
-.header .menu .nav__item {
-  list-style-type: none;
-  padding-right: 45px;
-}
-.header .menu .nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-size: 15px;
-  letter-spacing: 0.02em;
-}
-.header .menu .telefon {
-  display: flex;
-}
-.header .menu .telefon a {
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  color: #000;
-}
-.header .menu .logo {
-  display: flex;
-  align-items: center;
-}
-.header .menu .logo h1 {
-  font-size: 16px;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  color: #000000;
-  padding-left: 15px;
 }
 .header .shop {
   position: absolute;
@@ -605,6 +614,73 @@ body {
 .footer .bottom .ofer .visa {
   text-align: right;
   margin-left: 20px;
+}
+
+.hed {
+  position: relative;
+  height: 95px;
+}
+
+.section-magazin {
+  margin-top: 160px;
+}
+.section-magazin .magazin {
+  margin-left: 230px;
+}
+.section-magazin .magazin h1 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 61px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.section-magazin .magazin .mag {
+  padding: 0;
+}
+.section-magazin .magazin .mag__item {
+  list-style-type: none;
+  display: inline-block;
+}
+.section-magazin .magazin .mag__link {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+.section-magazin .magazin .mag span {
+  padding-left: 11px;
+  padding-right: 10px;
+}
+
+.section-content .content {
+  margin-left: 230px;
+}
+.section-content .content .cont {
+  padding: 0;
+}
+.section-content .content .cont__item {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  padding-top: 19px;
+  padding-right: 10px;
+}
+.section-content .content .cont__item:hover {
+  border: none;
+}
+.section-content .content .cont__link {
+  text-decoration: none;
+  color: #000000;
+  padding: 19px 65px;
+  border: 1px solid;
+}
+.section-content .content .cont li:hover a {
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */

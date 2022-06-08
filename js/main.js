@@ -17,3 +17,16 @@ var swiper = new Swiper(".teams", {
         prevEl: ".swiper-button-prev",
     },
 });
+$(document).ready(function(){
+    var scroll_pos = 0;
+    $(document).scroll(function() {
+        scroll_pos = $(this).scrollTop();
+        if(scroll_pos > 850) {
+            $(".menu-top").css('box-shadow', '0px 4px 15px 0px rgba(0, 0, 0, 0.5)');
+            $(".menu-top").css('height', '95');
+            $(".menu-top").css('background-color', '#fff');
+        } else {
+            $(".menu-top").css('background-color', '');
+        }
+    });
+});
