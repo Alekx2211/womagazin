@@ -1417,4 +1417,63 @@ body {
   opacity: 1;
 }
 
+.section-about .about {
+  margin-left: 230px;
+}
+.section-about .about .idea {
+  display: flex;
+  align-items: center;
+  margin-bottom: 115px;
+}
+.section-about .about .idea .text {
+  width: 529px;
+  margin-left: 92px;
+}
+.section-about .about .idea .text h2 {
+  padding-bottom: 46px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: black;
+}
+.section-about .about .idea .text .text1, .section-about .about .idea .text .text2 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.section-about .about .idea .text .text1 {
+  padding-bottom: 50px;
+}
+.section-about .about .magic {
+  display: flex;
+  align-items: center;
+}
+.section-about .about .magic .text {
+  width: 529px;
+  margin-right: 92px;
+}
+.section-about .about .magic .text h2 {
+  padding-bottom: 46px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: black;
+}
+.section-about .about .magic .text .text1, .section-about .about .magic .text .text2 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.section-about .about .magic .text .text1 {
+  padding-bottom: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
