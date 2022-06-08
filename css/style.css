@@ -656,11 +656,15 @@ body {
   padding-right: 10px;
 }
 
+.section-content {
+  margin-bottom: 230px;
+}
 .section-content .content {
   margin-left: 230px;
 }
 .section-content .content .cont {
   padding: 0;
+  margin-top: 217px;
 }
 .section-content .content .cont__item {
   list-style-type: none;
@@ -681,6 +685,452 @@ body {
 .section-content .content .cont li:hover a {
   color: #FFFFFF;
   background-color: #000000;
+}
+.section-content .content .tape {
+  padding-top: 100px;
+}
+.section-content .content .tape p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.section-content .content .tape .kat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 65px;
+}
+.section-content .content .tape .kat .foto2, .section-content .content .tape .kat .foto3 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-content .content .tape .kat .foto2 h2, .section-content .content .tape .kat .foto3 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-content .content .tape .kat .foto2 .cena, .section-content .content .tape .kat .foto3 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 11px;
+}
+.section-content .content .tape .kat .foto2 .cena span, .section-content .content .tape .kat .foto3 .cena span {
+  text-decoration: line-through;
+}
+.section-content .content .tape .kat .foto1 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-content .content .tape .kat .foto1 .img1 {
+  height: 478px;
+}
+.section-content .content .tape .kat .foto1 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-content .content .tape .kat .foto1 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 11px;
+}
+.section-content .content .tape .kat .foto1 .cena span {
+  text-decoration: line-through;
+}
+.section-content .content .tape .kat .foto1 .img1 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat .foto1 .img1 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat .foto1 .img1 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat .foto1 .img1:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat .foto2 .img2 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat .foto2 .img2 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat .foto2 .img2 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat .foto2 .img2:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat .foto3 .img3 {
+  height: 478px;
+}
+.section-content .content .tape .kat .foto3 .img3 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat .foto3 .img3 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat .foto3 .img3 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat .foto3 .img3:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.section-content .content .tape .kat2 .foto2, .section-content .content .tape .kat2 .foto3 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-content .content .tape .kat2 .foto2 h2, .section-content .content .tape .kat2 .foto3 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-content .content .tape .kat2 .foto2 .cena, .section-content .content .tape .kat2 .foto3 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 11px;
+}
+.section-content .content .tape .kat2 .foto2 .cena span, .section-content .content .tape .kat2 .foto3 .cena span {
+  text-decoration: line-through;
+}
+.section-content .content .tape .kat2 .foto1 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-content .content .tape .kat2 .foto1 .img1 {
+  height: 478px;
+}
+.section-content .content .tape .kat2 .foto1 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-content .content .tape .kat2 .foto1 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 11px;
+}
+.section-content .content .tape .kat2 .foto1 .cena span {
+  text-decoration: line-through;
+}
+.section-content .content .tape .kat2 .foto1 .img1 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat2 .foto1 .img1 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat2 .foto1 .img1 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat2 .foto1 .img1:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat2 .foto2 .img2 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat2 .foto2 .img2 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat2 .foto2 .img2 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat2 .foto2 .img2:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat2 .foto3 .img3 {
+  height: 478px;
+}
+.section-content .content .tape .kat2 .foto3 .img3 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat2 .foto3 .img3 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat2 .foto3 .img3 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat2 .foto3 .img3:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.section-content .content .tape .kat3 .foto2, .section-content .content .tape .kat3 .foto3 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-content .content .tape .kat3 .foto2 h2, .section-content .content .tape .kat3 .foto3 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-content .content .tape .kat3 .foto2 .cena, .section-content .content .tape .kat3 .foto3 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 11px;
+}
+.section-content .content .tape .kat3 .foto2 .cena span, .section-content .content .tape .kat3 .foto3 .cena span {
+  text-decoration: line-through;
+}
+.section-content .content .tape .kat3 .foto1 {
+  width: 350px;
+  height: 558px;
+  text-align: center;
+}
+.section-content .content .tape .kat3 .foto1 .img1 {
+  height: 478px;
+}
+.section-content .content .tape .kat3 .foto1 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.section-content .content .tape .kat3 .foto1 .cena {
+  font-size: 15px;
+  font-weight: 500;
+  color: #998E78;
+  padding-top: 11px;
+}
+.section-content .content .tape .kat3 .foto1 .cena span {
+  text-decoration: line-through;
+}
+.section-content .content .tape .kat3 .foto1 .img1 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat3 .foto1 .img1 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat3 .foto1 .img1 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat3 .foto1 .img1:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat3 .foto2 .img2 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat3 .foto2 .img2 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat3 .foto2 .img2 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat3 .foto2 .img2:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+.section-content .content .tape .kat3 .foto3 .img3 {
+  height: 478px;
+}
+.section-content .content .tape .kat3 .foto3 .img3 {
+  position: relative;
+  display: inline-block;
+}
+.section-content .content .tape .kat3 .foto3 .img3 .text {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #FFFFFF;
+  background: rgba(110, 156, 159, 0.77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-content .content .tape .kat3 .foto3 .img3 .go {
+  padding: 0;
+  border: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: none;
+}
+.section-content .content .tape .kat3 .foto3 .img3:hover .text {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
