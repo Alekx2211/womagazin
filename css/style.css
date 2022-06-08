@@ -622,7 +622,7 @@ body {
 }
 
 .section-magazin {
-  margin-top: 160px;
+  margin-top: 75px;
 }
 .section-magazin .magazin {
   margin-left: 230px;
@@ -1158,12 +1158,18 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.section-main .content .tovar__info .span {
-  text-decoration: line-through;
-  margin-left: 30px;
-}
 .section-main .content .tovar__info .cena {
   margin-bottom: 60px;
+}
+.section-main .content .tovar__info .cena .span {
+  text-decoration: line-through;
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #9C9C9C;
 }
 .section-main .content .tovar__info .cena p {
   font-size: 40px;
@@ -1189,6 +1195,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   padding-top: 9px;
+  margin-right: 10px;
 }
 .section-main .content .tovar__info .size div:hover {
   background-color: black;
@@ -1197,13 +1204,14 @@ body {
 }
 .section-main .content .tovar__info .color {
   margin-top: 34px;
-  margin-bottom: 60px;
+  margin-bottom: 52px;
 }
 .section-main .content .tovar__info .color div {
   width: 41px;
   height: 41px;
   border-radius: 100px;
   display: inline-block;
+  margin-right: 10px;
 }
 .section-main .content .tovar__info .color div:hover {
   cursor: pointer;
@@ -1248,6 +1256,10 @@ body {
   padding-top: 20px;
 }
 
+.section-season {
+  margin-top: 130px;
+  margin-bottom: 136px;
+}
 .section-season .season {
   margin-left: 230px;
 }

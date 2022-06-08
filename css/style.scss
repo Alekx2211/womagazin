@@ -633,7 +633,7 @@ $bg:#F1EADC;
   height: 95px;
 }
 .section-magazin {
-  margin-top: 160px;
+  margin-top: 75px;
   .magazin {
     margin-left: 230px;
     h1 {
@@ -1206,12 +1206,19 @@ $bg:#F1EADC;
           letter-spacing: 0.02em;
           text-align: left;
         }
-        .span {
-          text-decoration: line-through;
-          margin-left: 30px;
-        }
+
         .cena {
           margin-bottom: 60px;
+          .span {
+            text-decoration: line-through;
+            margin-left: 30px;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 33px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color:#9C9C9C ;
+          }
           p {
             font-size: 40px;
             font-weight: 500;
@@ -1236,6 +1243,7 @@ $bg:#F1EADC;
             letter-spacing: 0.02em;
             text-align: center;
             padding-top: 9px;
+            margin-right: 10px;
             &:hover{
               background-color: rgba(0, 0, 0, 1);
               color: #FFFFFF;
@@ -1245,12 +1253,13 @@ $bg:#F1EADC;
         }
         .color {
           margin-top: 34px;
-          margin-bottom: 60px;
+          margin-bottom: 52px;
           div {
             width: 41px;
             height: 41px;
             border-radius: 100px;
             display: inline-block;
+            margin-right: 10px;
             &:hover {
               cursor: pointer;
             }
@@ -1301,8 +1310,11 @@ $bg:#F1EADC;
   }
 }
 .section-season {
+  margin-top: 130px;
+  margin-bottom: 136px;
   .season {
     margin-left: 230px;
+
     h1 {
       font-size: 40px;
       font-weight: 500;
