@@ -9,10 +9,9 @@ h1, h2, h3, p {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Raleway", sans-serif;
-  width: 1600px;
 }
 
 .wrap {
@@ -124,6 +123,7 @@ body {
   left: 230px;
   width: 563px;
   height: 561px;
+  z-index: 0;
 }
 .header .shop .info {
   height: 385px;
@@ -448,6 +448,7 @@ body {
 .section-team .dreams .team {
   position: relative;
   width: 729px;
+  z-index: 0;
 }
 .section-team .dreams .team .teams {
   width: 729px;

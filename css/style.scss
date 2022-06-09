@@ -7,10 +7,9 @@ h1, h2, h3,p {
   padding: 0;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  width: 1600px;
 }
 $bg:#F1EADC;
 .wrap {
@@ -119,6 +118,7 @@ $bg:#F1EADC;
     left: 230px;
     width: 563px;
     height: 561px;
+    z-index: 0;
     .info {
       height: 385px;
       .text-top{
@@ -457,6 +457,7 @@ $bg:#F1EADC;
     .team {
       position: relative;
       width: 729px;
+      z-index: 0;
       .teams{
         width: 729px;
         .teams1,.teams2,.teams3 {
