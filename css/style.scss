@@ -16,6 +16,14 @@ $bg:#F1EADC;
 .wrap {
   width: 1110px;
 }
+.active  {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #6E9C9F;
+}
 .menu-top {
   position: fixed;
   z-index: 1;

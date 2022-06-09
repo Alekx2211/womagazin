@@ -32,8 +32,8 @@ $(document).ready(function(){
 });
 $(document).ready(function () {
 
-    $(' a[href^=""]').click(function () {
-        $('.nav a[href^=""]').removeClass('active');
+    $(' .nav__link[href^=""]').click(function () {
+        $(' .nav__link[href^=""]').removeClass('active');
         $(this).addClass('active');
         return false;
     });
