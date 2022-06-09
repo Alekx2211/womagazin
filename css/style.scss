@@ -46,6 +46,14 @@ $bg:#F1EADC;
         font-size: 15px;
         letter-spacing: 0.02em;
       }
+      .active  {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #6E9C9F;
+      }
     }
     .telefon {
       display: flex;

@@ -52,6 +52,14 @@ body {
   font-size: 15px;
   letter-spacing: 0.02em;
 }
+.menu-top .menu .nav .active {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #6E9C9F;
+}
 .menu-top .menu .telefon {
   display: flex;
 }
