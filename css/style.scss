@@ -6,6 +6,15 @@ h1, h2, h3,p {
   margin: 0;
   padding: 0;
 }
+.select {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.border {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -15,14 +24,7 @@ $bg:#F1EADC;
 .wrap {
   width: 1110px;
 }
-.active  {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #6E9C9F;
-}
+
 .menu-top {
   position: fixed;
   z-index: 1;
@@ -60,6 +62,7 @@ $bg:#F1EADC;
         letter-spacing: 0.02em;
         text-align: left;
         color: #6E9C9F;
+        text-decoration: none;
       }
     }
     .telefon {
@@ -579,7 +582,15 @@ $bg:#F1EADC;
           letter-spacing: 0.02em;
           text-align: left;
           color: #000000;
-
+        }
+        .active  {
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 21px;
+          letter-spacing: 0.02em;
+          text-align: left;
+          color: #6E9C9F;
+          text-decoration: none;
         }
       }
     }
@@ -674,6 +685,14 @@ $bg:#F1EADC;
         letter-spacing: 0.02em;
         text-align: left;
         color: #000000;
+      }
+      .text {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: rgba(144, 144, 144, 1);
       }
       span {
         padding-left: 11px;
@@ -1285,7 +1304,6 @@ $bg:#F1EADC;
           }
           .gr {
             background-color: rgba(212, 212, 212, 1);
-            border: 1px solid rgba(0, 0, 0, 1);
           }
           .red {
             background-color: rgba(253, 150, 150, 1);

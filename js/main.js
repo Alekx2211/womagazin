@@ -53,3 +53,76 @@ $(document).ready(function () {
         })
     }
 });
+$(document).ready(function () {
+    // $(' .nav__link[href^=""]').click(function () {
+    //     $(' .nav__link[href^=""]').removeClass('active');
+    //     $(this).addClass('active');
+    //     return false;
+    // });
+    let links = document.querySelectorAll('.s');
+    for (let link of links) {
+        link.addEventListener('click', () => {
+            for (let link of links) {
+                if (link.classList.contains("select")) {
+                    link.classList.remove("select");
+                }
+            }
+            link.classList.toggle("select");
+        })
+    }
+});
+$(document).ready(function () {
+    // $(' .nav__link[href^=""]').click(function () {
+    //     $(' .nav__link[href^=""]').removeClass('active');
+    //     $(this).addClass('active');
+    //     return false;
+    // });
+    let links = document.querySelectorAll('.col');
+    for (let link of links) {
+        link.addEventListener('click', () => {
+            for (let link of links) {
+                if (link.classList.contains("border")) {
+                    link.classList.remove("border");
+                }
+            }
+            link.classList.toggle("border");
+        })
+    }
+});
+$(document).ready(function () {
+    // $(' .nav__link[href^=""]').click(function () {
+    //     $(' .nav__link[href^=""]').removeClass('active');
+    //     $(this).addClass('active');
+    //     return false;
+    // });
+    let links = document.querySelectorAll('.mag__link');
+    for (let link of links) {
+        link.addEventListener('click', () => {
+            for (let link of links) {
+                if (link.classList.contains("text")) {
+                    link.classList.remove("text");
+                }
+            }
+            link.classList.toggle("text");
+        })
+    }
+});
+$(document).ready(function () {
+    // $(' .nav__link[href^=""]').click(function () {
+    //     $(' .nav__link[href^=""]').removeClass('active');
+    //     $(this).addClass('active');
+    //     return false;
+    // });
+    let links = document.querySelectorAll('.nav__link');
+    for (let link of links) {
+        link.addEventListener('click', () => {
+            for (let link of links) {
+                if (link.classList.contains("active")) {
+                    link.classList.remove("active");
+                }
+            }
+            link.classList.toggle("active");
+        })
+    }
+});
+
